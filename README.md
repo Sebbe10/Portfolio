@@ -1,2 +1,0 @@
-sebastianbjelk.se
-ha

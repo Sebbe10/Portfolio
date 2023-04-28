@@ -1,0 +1,384 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.cv {
+  height: 10vh;
+  background: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.cvpage {
+  background: linear-gradient(lightblue, white, lightblue);
+  height: 136vh;
+}
+
+.thecv {
+  width: 315px;
+  height: 1238px;
+  margin: auto;
+  display: block;
+  border: 2px solid black;
+  background: whitesmoke;
+  box-shadow: 0 0.1rem 0.1rem black;
+}
+
+.kontaktuppgifter {
+  height: 155px;
+  width: 315px;
+  background-color: rgb(160, 220, 160);
+  color: white;
+}
+
+.k4 {
+  color: black;
+  text-align: center;
+  text-decoration: underline black;
+  font-size: 25px;
+}
+
+.m-mail {
+  color: black;
+}
+
+.l-linkedin {
+  color: black;
+}
+
+.g-github {
+  color: black;
+}
+
+.kompetenser {
+  text-align: center;
+  height: 210px;
+  width: 315px;
+  background-color: rgb(160, 220, 160);
+  font-size: 20px;
+}
+
+.k5 {
+  font-size: 23px;
+}
+
+.thetext {
+  margin: auto;
+  text-align: center;
+  width: 250px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.l {
+  font-size: 13px;
+  color: white;
+}
+
+.g {
+  font-size: 13px;
+  color: white;
+}
+
+.l:hover {
+  color: gray;
+  text-decoration: underline white;
+}
+.g:hover {
+  color: gray;
+  text-decoration: underline white;
+}
+
+.bigmenu {
+  display: none;
+}
+
+@media screen and (min-width: 500px) {
+  .cv {
+    height: 10vh;
+    background: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .cvpage {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 143vh;
+  }
+
+  .thecv {
+    width: 480px;
+    height: 850px;
+    margin: auto;
+    display: block;
+    border: 2px solid black;
+    background: whitesmoke;
+    box-shadow: 0 0.1rem 0.1rem black;
+  }
+
+  .kontaktuppgifter {
+    height: 155px;
+    width: 480px;
+    background-color: rgb(160, 220, 160);
+    color: white;
+    font-size: 20px;
+  }
+
+  .k4 {
+    color: black;
+    text-align: center;
+    text-decoration: underline black;
+    font-size: 30px;
+  }
+
+  .m-mail {
+    font-size: 15px;
+    color: black;
+  }
+
+  .l-linkedin {
+    font-size: 15px;
+    color: black;
+  }
+
+  .g-github {
+    font-size: 15px;
+    color: black;
+  }
+
+  .kompetenser {
+    text-align: center;
+    height: 210px;
+    width: 480px;
+    background-color: rgb(160, 220, 160);
+    font-size: 20px;
+  }
+
+  .k5 {
+    font-size: 23px;
+  }
+
+  .thetext {
+    margin: auto;
+    text-align: center;
+    width: 475px;
+  }
+  p {
+    font-size: 13px;
+  }
+
+  .l {
+    font-size: 13px;
+  }
+
+  .g {
+    font-size: 13px;
+  }
+
+  .l:hover {
+    color: gray;
+    text-decoration: underline white;
+  }
+  .g:hover {
+    color: gray;
+    text-decoration: underline white;
+  }
+
+  #open {
+    display: flex;
+    position: fixed;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cv {
+    font-size: 40px;
+    text-align: center;
+  }
+  .cvpage {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 106vh;
+  }
+  .thecv {
+    width: 700px;
+    height: 630px;
+    position: relative;
+    margin: auto;
+    display: block;
+    border: 2px solid black;
+    background: whitesmoke;
+  }
+
+  .kontaktuppgifter {
+    height: 170px;
+    width: 500px;
+    background-color: rgb(160, 220, 160);
+    color: white;
+  }
+
+  .k4 {
+    color: black;
+    text-decoration: underline black;
+    font-size: 30px;
+  }
+
+  .m-mail {
+    color: black;
+  }
+
+  .l-linkedin {
+    color: black;
+  }
+
+  .g-github {
+    color: black;
+  }
+
+  .kompetenser {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    text-align: center;
+    height: 630px;
+    width: 200px;
+    background-color: rgb(160, 220, 160);
+    font-size: 25px;
+  }
+
+  .k5 {
+    font-size: 30px;
+  }
+
+  .thetext {
+    position: absolute;
+    left: 0;
+    text-align: start;
+    width: 500px;
+  }
+  p {
+    font-size: 13px;
+  }
+
+  .l:hover {
+    color: gray;
+    text-decoration: underline white;
+  }
+
+  .g:hover {
+    color: gray;
+    text-decoration: underline white;
+  }
+
+  .bigmenu {
+    display: flex;
+    background-color: white;
+  }
+
+  #open {
+    display: none;
+  }
+
+  .fa-linkedin:hover {
+    color: lightblue;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cv {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .cvpage {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 102.5vh;
+  }
+
+  .thecv {
+    width: 700px;
+    height: 610px;
+    position: relative;
+    margin: auto;
+    display: block;
+    border: 2px solid black;
+    background: whitesmoke;
+  }
+
+  .kontaktuppgifter {
+    height: 150px;
+    width: 500px;
+    background-color: rgb(160, 220, 160);
+    font-size: 15px;
+    color: white;
+  }
+
+  .k4 {
+    color: black;
+    text-decoration: underline black;
+    font-size: 30px;
+  }
+
+  .m-mail {
+    color: black;
+  }
+
+  .l-linkedin {
+    color: black;
+  }
+
+  .g-github {
+    color: black;
+  }
+
+  .kompetenser {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    text-align: center;
+    height: 610px;
+    width: 200px;
+    background-color: rgb(160, 220, 160);
+    font-size: 25px;
+  }
+
+  .k5 {
+    font-size: 30px;
+  }
+
+  .thetext {
+    width: 500px;
+  }
+  p {
+    font-size: 13px;
+  }
+
+  .l {
+    font-size: 13px;
+  }
+
+  .l:hover {
+    color: gray;
+    text-decoration: underline white;
+  }
+
+  .g {
+    font-size: 13px;
+  }
+
+  .g:hover {
+    color: gray;
+    text-decoration: underline white;
+  }
+
+  .bigmenu {
+    display: flex;
+    background-color: lightblue;
+  }
+
+  #open {
+    display: none;
+  }
+}

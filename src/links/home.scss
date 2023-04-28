@@ -1,0 +1,174 @@
+.homewidthheight {
+  height: auto;
+  width: auto;
+}
+
+.home {
+  height: 10vh;
+  background: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.divhome {
+  position: relative;
+  top: 200px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.homepage {
+  background: linear-gradient(lightblue, white, lightblue);
+  height: 65vh;
+}
+
+.klfooter {
+  display: flex;
+  text-align: center;
+  position: fixed;
+  justify-content: space-around;
+  margin-top: 60vh;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100%;
+  font-size: 40px;
+}
+
+.fa-brands {
+  display: none;
+}
+.openlin {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 500px) {
+  .home {
+    height: 10vh;
+    font-size: 40px;
+    text-align: center;
+  }
+  .homepage {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 65vh;
+  }
+
+  .klfooter {
+    display: flex;
+    text-align: center;
+    position: fixed;
+    justify-content: space-around;
+    margin-top: 54vh;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    font-size: 45px;
+  }
+
+  .divhome {
+    position: relative;
+    top: 160px;
+    text-align: center;
+    font-size: 45px;
+  }
+
+  .fa-brands {
+    font-size: 60px;
+    display: flex;
+    left: 0;
+    position: absolute;
+  }
+
+  .openlin {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    font-size: 50px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .homepage {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 59vh;
+  }
+
+  .home {
+    height: 10vh;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .klfooter {
+    display: flex;
+    text-align: center;
+    position: fixed;
+    justify-content: space-around;
+    margin-top: 46vh;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .divhome {
+    position: relative;
+    top: 160px;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .fa-brands {
+    font-size: 60px;
+    display: flex;
+    right: 0;
+    position: relative;
+  }
+
+  .bi-linkedin {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home {
+    height: 10vh;
+    background: white;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .divhome {
+    position: relative;
+    top: 160px;
+    text-align: center;
+    font-size: 55px;
+  }
+
+  .homepage {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 60vh;
+  }
+
+  .klfooter {
+    display: flex;
+    text-align: center;
+    position: fixed;
+    justify-content: space-around;
+    margin-top: 50vh;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .fa-brands {
+    font-size: 70px;
+  }
+
+  .bi-linkedin {
+    display: none;
+  }
+}

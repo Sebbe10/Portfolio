@@ -1,0 +1,187 @@
+.contact {
+  height: 10vh;
+  background: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.kontakta {
+  display: flex;
+  text-align: center;
+  font-size: 22px;
+  color: black;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.kontakta:hover {
+  color: gray;
+  text-decoration: underline black;
+}
+
+.m-l {
+  display: flex;
+  justify-content: start;
+  font-size: 40px;
+}
+
+.contactpage {
+  background: linear-gradient(lightblue, white, lightblue);
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.down {
+  display: flex;
+  position: relative;
+  top: 0px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (min-width: 500px) {
+  .contact {
+    height: 10vh;
+    background: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .m-l {
+    font-size: 40px;
+  }
+
+  .kontakta {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .kontakta:hover {
+    color: gray;
+    text-decoration: underline black;
+  }
+
+  .contactpage {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .down {
+    display: flex;
+    position: relative;
+    top: 0px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+
+  .kontakta {
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .m-l {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact {
+    height: 10vh;
+    background: white;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .contactpage {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 85.5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .down {
+    display: flex;
+    position: relative;
+    top: 0px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+
+  .kontakta {
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .m-l {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact {
+    height: 10vh;
+    background: white;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .contactpage {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 83.5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kontakta {
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .down {
+    display: flex;
+    position: relative;
+    top: 0px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+
+  .m-l {
+    font-size: 45px;
+  }
+}

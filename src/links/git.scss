@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.git {
+  height: 10vh;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.divgit {
+  background: linear-gradient(lightblue, white, lightblue);
+  height: 70vh;
+}
+
+.git-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.h-git {
+  display: flex;
+  justify-content: center;
+}
+
+.infodown {
+  position: relative;
+  top: 270px;
+}
+.g-git {
+  font-size: 22px;
+  color: lightblue;
+}
+
+.gg {
+  font-size: 22px;
+  color: cornflowerblue;
+}
+
+.gg:hover {
+  color: gray;
+  text-decoration: underline black;
+}
+
+.klfoot {
+  display: flex;
+  text-align: center;
+  position: fixed;
+  justify-content: space-around;
+  margin-top: 51vh;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100%;
+  font-size: 50px;
+}
+
+.kont {
+  font-size: 11px;
+}
+
+.lin {
+  font-size: 11px;
+}
+
+@media screen and (min-width: 500px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .git {
+    height: 10vh;
+    background: linear-gradient(white, white, white);
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .divgit {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 60vh;
+  }
+
+  .git-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 21px;
+    padding: 20px;
+  }
+
+  .h-git {
+    display: flex;
+    justify-content: center;
+  }
+
+  .infodown {
+    position: relative;
+    top: 110px;
+  }
+
+  .g-git {
+    font-size: 30px;
+    color: lightblue;
+  }
+
+  .gg {
+    padding: 5px;
+    font-size: 25px;
+    color: cornflowerblue;
+  }
+
+  .gg:hover {
+    color: gray;
+    text-decoration: underline black;
+  }
+  .klfoot {
+    display: flex;
+    text-align: center;
+    position: fixed;
+    justify-content: space-around;
+    margin-top: 50vh;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+  }
+  .kont {
+    font-size: 15px;
+  }
+  .lin {
+    font-size: 15px;
+  }
+
+  .kl {
+    display: flex;
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .cv {
+    height: 10vh;
+    background: white;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .divgit {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 61vh;
+  }
+
+  .git-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+  }
+
+  .h-git {
+    display: flex;
+    justify-content: center;
+  }
+
+  .g-git {
+    font-size: 40px;
+    color: lightblue;
+  }
+
+  .gg {
+    padding: 5px;
+    font-size: 35px;
+    color: cornflowerblue;
+  }
+
+  .gg:hover {
+    color: gray;
+    text-decoration: underline black;
+  }
+
+  .klfoot {
+    display: flex;
+    text-align: center;
+    position: fixed;
+    justify-content: space-around;
+    margin-top: 35vh;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .kont {
+    font-size: 20px;
+  }
+  .lin {
+    font-size: 20px;
+  }
+
+  .kl {
+    display: flex;
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .bigmenu {
+    background: white;
+  }
+
+  .divgit {
+    background: linear-gradient(lightblue, white, lightblue);
+    height: 56vh;
+  }
+
+  .git {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .git-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  .h-git {
+    display: flex;
+    justify-content: center;
+  }
+
+  .g-git {
+    font-size: 50px;
+    color: lightblue;
+  }
+
+  .gg {
+    padding: 5px;
+    font-size: 45px;
+    color: cornflowerblue;
+  }
+
+  .gg:hover {
+    color: gray;
+    text-decoration: underline black;
+  }
+  .klfoot {
+    display: flex;
+    text-align: center;
+    position: fixed;
+    justify-content: space-around;
+    margin-top: 27vh;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+  }
+  .kont {
+    font-size: 25px;
+  }
+  .lin {
+    font-size: 25px;
+  }
+
+  .kl {
+    display: flex;
+    font-size: 45px;
+  }
+}
